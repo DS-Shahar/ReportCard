@@ -1,0 +1,32 @@
+
+public class ReportCard {
+	private String stuName;
+	private Subject[] subArray;
+
+
+	public String getStuName() {
+		return stuName;
+	}
+
+	public void setStuName(String stuName) {
+		this.stuName = stuName;
+	}
+
+	public Subject[] getSubArray() {
+		return subArray;
+	}
+
+	public void setSubArray(Subject[] subArray) {
+		this.subArray = subArray;
+	}
+
+	public double average() {
+		int sum = 0;
+		int count = subArray.length;
+		for (int i = 0; i < count; i++) {
+			sum += subArray[i].getGrade();
+		}
+		return (double) sum / count;
+	}
+
+}
