@@ -1,0 +1,31 @@
+
+public class Subject {
+	private String subName;
+	private int grade;
+
+	public Subject(String subName, int grade) {
+		this.subName = subName;
+		this.grade = grade;
+	}
+
+	public Subject(Subject s) {
+		this.subName = s.subName;
+		this.grade = s.grade;
+	}
+
+	public int getGrade() {
+		return grade;
+	}
+
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+
+	public String getSubName() {
+		return subName;
+	}
+
+	public void setSubName(String subName) {
+		this.subName = subName;
+	}
+}
