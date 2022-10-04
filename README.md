@@ -1,7 +1,7 @@
 # Java-Classes
 
 ## Important!
- * To make "assert" function work: 
+ * To make "assert" function work in Eclipse: 
  * Open "Run"|"Run Configurations...", click "Arguments" and in "VM Arguments" write: -enableassertions
 
 ## How to import into Eclipse
