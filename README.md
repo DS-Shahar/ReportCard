@@ -1,5 +1,9 @@
 # Java-Classes
 
+## Important!
+ * To make "assert" function work: 
+ * Open "Run"|"Run Configurations...", click "Arguments" and in "VM Arguments" write: -enableassertions
+
 ## How to import into Eclipse
 Click File|Import...|Git|Projects from Git (with smart import)
 
